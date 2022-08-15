@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=width, initial-scale=version">
+    <title>title</title>
+</head>
+<body>
+    <main>
+        <% books.forEach((book)=>{ %>
+            <p><%= book.title %></p>
+            <p><%= book.description %></p>
+            <p><%= book.price %></p>
+            <p><%= book.author %></p>
+        <% }) %>
+    </main>
+</body>
+</html>
